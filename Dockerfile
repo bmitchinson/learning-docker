@@ -17,4 +17,4 @@ EXPOSE $PORT
 # You can use the previously defined env variable, because at this layer
 #     building the image, it's been set for this layer already.
 
-ENTRYPOINT ["node", "app.js"]
+ENTRYPOINT ["npm", "start"]
